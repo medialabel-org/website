@@ -8,7 +8,7 @@ TIMEZONE = "America/Vancouver"
 RELATIVE_URLS = False
 
 GITHUB_URL = "http://github.com/medialabel-org/website/"
-DISQUS_SITENAME = "medialabel-website"
+# DISQUS_SITENAME = "medialabel-website"
 REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
 DEFAULT_PAGINATION = 4
@@ -56,6 +56,6 @@ READERS = {"html": None}
 # code blocks with line numbers
 PYGMENTS_RST_OPTIONS = {"linenos": "table"}
 
-THEME = 'themes/bootstrap2'
+THEME = 'themes/pelican-bootstrap3'
 OUTPUT_PATH = 'output'
 PATH = 'content'
