@@ -59,3 +59,8 @@ PYGMENTS_RST_OPTIONS = {"linenos": "table"}
 THEME = 'themes/pelican-bootstrap3'
 OUTPUT_PATH = 'output'
 PATH = 'content'
+PLUGIN_PATHS = ['./pelican-plugins', ]
+PLUGINS = ['i18n_subsites', ]
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
