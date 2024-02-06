@@ -1,6 +1,6 @@
 AUTHOR = "International Labelling Authority"
 SITENAME = "MediaLabel.org"
-SITESUBTITLE = "Surfacing Media Metadata for Global Citizens"
+SITESUBTITLE = "Restoring Trust in Visual Media"
 SITEURL = "https://medialabel.org"
 TIMEZONE = "America/Vancouver"
 
@@ -18,7 +18,7 @@ FEED_ALL_RSS = "feeds/all.rss.xml"
 CATEGORY_FEED_RSS = "feeds/{slug}.rss.xml"
 
 LINKS = (
-    ("Biologeek", "http://biologeek.org"),
+    ("White Paper", "https://docs.google.com/document/d/1C1mGqO52YeZhA7YV6tQ0yuPDE-qeyj0gcsiAbRjrF3k/edit#heading=h.kivdn6wkdpwz"),
     ("Filyb", "http://filyb.info/"),
     ("Libert-fr", "http://www.libert-fr.com"),
     ("N1k0", "http://prendreuncafe.com/blog/"),
@@ -26,9 +26,8 @@ LINKS = (
 )
 
 SOCIAL = (
-    ("twitter", "http://twitter.com/ametaireau"),
-    ("lastfm", "http://lastfm.com/user/akounet"),
-    ("github", "http://github.com/ametaireau"),
+    ("mastodon", "https://techhub.social/medialabel"),
+    ("github", "https://github.com/medialabel-org"),
 )
 
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
