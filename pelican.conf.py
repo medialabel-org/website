@@ -4,6 +4,8 @@ SITESUBTITLE = "Restoring Trust in Visual Media"
 SITEURL = "https://medialabel.org"
 TIMEZONE = "America/Vancouver"
 
+BOOTSTRAP_THEME = "sketchy"
+
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = False
 
